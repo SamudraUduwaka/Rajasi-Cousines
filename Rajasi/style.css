@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Allison";
+    src: url("fonts/Allison-Regular.ttf");
+}
+
+@font-face {
+    font-family: "kleeone";
+    src: url("fonts/KleeOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "kleeoness";
+    src: url("fonts/KleeOne-SemiBold.ttf");
+}
+
+* {
+    font-family: "kleeone";
+}
+
+.logo {
+    background-image: url("images/rajasilogoo.jpg");
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.texts {
+    font-size: 35px;
+    font-family: "Allison";
+}
+
+.sign {
+    font-family: "kleeoness";
+    font-size: 20px;
+}
